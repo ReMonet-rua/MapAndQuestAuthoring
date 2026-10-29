@@ -4,11 +4,13 @@ Godot 地图与任务编辑工具，已在 Godot 4.7.2 验证。
 
 ## 安装
 
-1. [下载 v0.3.0 插件包](https://github.com/ReMonet-rua/MapAndQuestAuthoring/releases/download/v0.3.0/MapAndQuestAuthoring-0.3.0.zip)，解压到 Godot 项目根目录。
-2. 保留 `addons/level_authoring` 和 `addons/quest_authoring` 两个目录。
-3. 在 **Project > Project Settings > Plugins** 中按需启用 **Map Editor**、**Quest Editor**，可以单独开关。
+1. [下载 v0.3.0 插件包](https://github.com/ReMonet-rua/MapAndQuestAuthoring/releases/download/v0.3.0/MapAndQuestAuthoring-0.3.0.zip)。
+2. 在 Godot 编辑器打开目标项目，进入 **AssetLib > Import**，选择下载的 ZIP，并在安装窗口点击 **Install**。
+3. 打开 **Project > Project Settings > Plugins**，按需启用 **Map Editor**、**Quest Editor**；两者可以单独开关。
 
-Quest Editor 使用共享目录中的任务资源代码，但不要求启用 Map Editor。需要运行跨地图传送时，再将 `addons/level_authoring/runtime/level_authoring_world_manager.gd` 以 `LevelWorldManager` 名称添加到 **Project Settings > Globals > Autoload**。
+Quest Editor 使用共享目录中的任务资源代码，但不要求启用 Map Editor。需要运行跨地图传送时，将 `addons/level_authoring/runtime/level_authoring_world_manager.gd` 以 `LevelWorldManager` 名称添加到 **Project Settings > Globals > Autoload**。
+
+如果 AssetLib 无法导入该 ZIP，可手动解压，并将包内的 `addons` 文件夹合并到项目根目录。本包是插件包，不是完整 Godot 项目；不要从项目管理器的“导入项目”入口打开。
 
 ## 功能介绍
 
