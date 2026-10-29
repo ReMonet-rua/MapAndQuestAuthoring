@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.1 — 2026-10-29
+
+- Updated publisher and copyright attribution to ReMonet.
+- Added the Quest Editor's bundled MIT license copy.
+- Prepared package metadata and the download link for Godot Asset Store distribution.
+
 ## 0.3.0 — 2026-10-29
 
 - Renamed the combined product to Map & Quest Authoring.

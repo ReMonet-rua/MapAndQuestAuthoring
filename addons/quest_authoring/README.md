@@ -1,6 +1,6 @@
 # Quest Editor
 
-Quest Editor is the task and dialogue-flow plugin in the **Map & Quest Authoring** suite (version 0.3.0).
+Quest Editor is the task and dialogue-flow plugin in the **Map & Quest Authoring** suite (version 0.3.1).
 
 ## Installation
 

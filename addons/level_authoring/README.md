@@ -1,6 +1,6 @@
 # Map & Quest Authoring
 
-地图与任务编辑器套件，版本 **0.3.0**。包含两个可独立启用/停用的 Godot 插件：**Map Editor** 与 **Quest Editor**。已在 Godot **4.7.2** 验证；其他编辑器版本尚未验证。
+地图与任务编辑器套件，版本 **0.3.1**。包含两个可独立启用/停用的 Godot 插件：**Map Editor** 与 **Quest Editor**。已在 Godot **4.7.2** 验证；其他编辑器版本尚未验证。
 
 ## 独立插件
 
