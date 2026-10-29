@@ -1,0 +1,30 @@
+[gd_resource type="TileSet" format=3]
+
+[ext_resource type="Texture2D" path="res://addons/level_authoring/assets/terrain_placeholder_atlas.svg" id="1_hrqf6"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_f3gu0"]
+resource_name = "占位地形"
+texture = ExtResource("1_hrqf6")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -16, 16, -16, 16, 16, -16, 16)
+1:0/0 = 0
+1:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -16, 16, -16, 16, -10, -16, -10)
+1:0/0/physics_layer_0/polygon_0/one_way = true
+1:0/0/physics_layer_0/polygon_0/one_way_margin = 4.0
+2:0/0 = 0
+2:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -16, 16, -16, 16, 16, -16, 16)
+3:0/0 = 0
+4:0/0 = 0
+4:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -16, 16, -16, 16, 16, -16, 16)
+5:0/0 = 0
+5:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, 16, 16, -16, 16, 16)
+6:0/0 = 0
+6:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -16, 16, 16, -16, 16)
+7:0/0 = 0
+7:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -16, 16, -16, 16, 16, -16, 16)
+
+[resource]
+tile_size = Vector2i(32, 32)
+physics_layer_0/collision_layer = 1
+sources/0 = SubResource("TileSetAtlasSource_f3gu0")

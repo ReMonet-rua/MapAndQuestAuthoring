@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="32" viewBox="0 0 256 32">
+  <rect width="256" height="32" fill="#111827"/>
+  <g shape-rendering="crispEdges">
+    <rect x="1" y="1" width="30" height="30" fill="#26485b" stroke="#7bd2e8" stroke-width="2"/>
+    <rect x="3" y="3" width="26" height="5" fill="#61c0d6"/>
+    <path d="M5 14h7v3H5zm15 5h7v3h-7zM9 25h6v3H9z" fill="#38657a"/>
+
+    <rect x="33" y="1" width="30" height="30" fill="#111827" stroke="#718096" stroke-width="1"/>
+    <rect x="35" y="7" width="26" height="6" fill="#bc83e8"/>
+    <rect x="35" y="7" width="26" height="2" fill="#ead5ff"/>
+    <path d="M38 13v5m20-5v5" stroke="#9f67cc" stroke-width="2"/>
+
+    <rect x="65" y="1" width="30" height="30" fill="#493c35" stroke="#c29a72" stroke-width="2"/>
+    <path d="M67 9h26M67 18h26M76 3v6m9 0v9m-12 0v9m11 0v4" stroke="#8a705b" stroke-width="2"/>
+    <path d="M67 5h26" stroke="#dfb68a" stroke-width="2"/>
+
+    <rect x="97" y="1" width="30" height="30" fill="#152b32" stroke="#54c6ad" stroke-width="2"/>
+    <path d="M99 27 123 3M99 18 114 3M108 29 125 12" stroke="#287d72" stroke-width="3"/>
+    <circle cx="112" cy="16" r="3" fill="#91f1d7"/>
+
+    <rect x="129" y="1" width="30" height="30" fill="#36566a" stroke="#9bd3e6" stroke-width="2"/>
+    <rect x="131" y="3" width="26" height="5" fill="#d2f2ff"/>
+    <path d="M131 12h26M131 22h26M140 13v8m9-8v8" stroke="#52788e" stroke-width="2"/>
+
+    <path d="M161 31V1h30z" fill="#356b73" stroke="#84e0d2" stroke-width="2"/>
+    <path d="M164 27 188 3" stroke="#b5fff2" stroke-width="2"/>
+    <circle cx="168" cy="24" r="2" fill="#63c8bd"/>
+
+    <path d="M193 31h30V1z" fill="#6b536d" stroke="#d4a9e4" stroke-width="2"/>
+    <path d="M196 28 220 4" stroke="#f0d3ff" stroke-width="2"/>
+    <circle cx="218" cy="25" r="2" fill="#b985c7"/>
+
+    <rect x="225" y="1" width="30" height="30" fill="#555041" stroke="#e0c47e" stroke-width="2"/>
+    <path d="M227 7h26M227 17h26M227 27h26M235 3v8m12 0v8m-12 0v8m12 0v6" stroke="#95865d" stroke-width="2"/>
+    <path d="M227 4h26" stroke="#ffedaa" stroke-width="2"/>
+  </g>
+</svg>
